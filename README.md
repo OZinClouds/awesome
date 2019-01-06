@@ -14,8 +14,7 @@ a curated list of awesomenesses and cheatsheets.
 Awesome tools
 
 ## Git
-* [Git Cheat](docs/tooling/gitCheat.md)
-* 
+* [Git Cheat](docs/tooling/gitCheat.md) :hash:
 
 # Testing
 Testing goodies  
@@ -30,6 +29,6 @@ Testing goodies
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NTk0MTIxLC04OTc4ODc4MDYsLTcxMz
-I1ODQ1OF19
+eyJoaXN0b3J5IjpbMTE5Nzg4MzcwOSwtODk3ODg3ODA2LC03MT
+MyNTg0NThdfQ==
 -->
