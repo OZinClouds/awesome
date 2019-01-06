@@ -16,8 +16,10 @@ remove all files and init again with an initial commit
 	echo "restarted git..."}`
 
 ## reset remote
-Delete everything and reset remote, then 
+Delete everything and reset remote, then push mirror origin
+assume git restarted
+`git remote add origin https://github.com/<>`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mzg0MzYzNyw3Nzk3MjIxNDEsNzEwNj
-k0MzhdfQ==
+eyJoaXN0b3J5IjpbLTE4NjMzOTUwNDksNzc5NzIyMTQxLDcxMD
+Y5NDM4XX0=
 -->
