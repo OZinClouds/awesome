@@ -17,9 +17,12 @@ remove all files and init again with an initial commit
 
 ## reset remote
 Delete everything and reset remote, then push mirror origin
-assume git restarted
-`git remote add origin https://github.com/<>`
+*assumes git restarted*
+add remote:
+`git remote add origin https://github.com/ozinclouds/<REPO>`
+push entire local repo to remote:
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMzOTUwNDksNzc5NzIyMTQxLDcxMD
-Y5NDM4XX0=
+eyJoaXN0b3J5IjpbLTI4OTQ5MTk4NSw3Nzk3MjIxNDEsNzEwNj
+k0MzhdfQ==
 -->
