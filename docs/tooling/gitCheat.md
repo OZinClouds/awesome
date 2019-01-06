@@ -1,7 +1,7 @@
 # Git Cheat
 
 ## git_restart
-git start from sc
+git start from scratch
 remove all files and init again with an initial commit
 
 	`git_restart(){
@@ -14,5 +14,5 @@ remove all files and init again with an initial commit
 
 	echo "restarted git..."}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODgxMDUwOV19
+eyJoaXN0b3J5IjpbOTgwNTAzOTYxXX0=
 -->
