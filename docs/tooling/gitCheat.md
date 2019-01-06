@@ -50,10 +50,14 @@ add a tag
 delete a tag  
 `git tag --delete v1.0.0 `  
 push a tag  
-`git push origin v1.0.0`
-push all
+`git push origin v1.0.0`  
+push all tags  
+`git push origin --tags`  
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjUzNjIxNywyOTk2MTQ4MDcsLTIwMT
-AzMDEyNTYsODIzNzAzNTksNzc5NzIyMTQxLDcxMDY5NDM4XX0=
+eyJoaXN0b3J5IjpbMjk0ODE1NTI3LDI5OTYxNDgwNywtMjAxMD
+MwMTI1Niw4MjM3MDM1OSw3Nzk3MjIxNDEsNzEwNjk0MzhdfQ==
 
 -->
