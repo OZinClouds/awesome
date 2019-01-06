@@ -1,10 +1,10 @@
 # Git Cheat
 
 ## git_restart
-git start-over
+git start from sc
 remove all files and init again with an initial commit
-` 
-git_restart(){
+
+	`git_restart(){
 	echo "this may take some time, be patient..."
 
 	rm -rf .git
@@ -12,9 +12,7 @@ git_restart(){
 	git add .
 	git commit -am "initial commit"
 
-	echo "restarted git..."
-}
-`
+	echo "restarted git..."}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgxOTQ2OTJdfQ==
+eyJoaXN0b3J5IjpbLTU4ODgxMDUwOV19
 -->
