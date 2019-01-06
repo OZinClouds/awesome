@@ -14,6 +14,10 @@ remove all files and init again with an initial commit
 	git commit -am "initial commit"
 
 	echo "restarted git..."}`
+
+## reset remote
+Delete everything and reset remote, then 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5NzIyMTQxLDcxMDY5NDM4XX0=
+eyJoaXN0b3J5IjpbLTU0Mzg0MzYzNyw3Nzk3MjIxNDEsNzEwNj
+k0MzhdfQ==
 -->
