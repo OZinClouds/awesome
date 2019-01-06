@@ -1,5 +1,6 @@
 # Git Cheat
 * [git_restart](#git_restart)
+* [reset remote](#reset-remote)
 
 ## git_restart
 git start from scratch
@@ -21,8 +22,10 @@ Delete everything and reset remote, then push mirror origin
 add remote:
 `git remote add origin https://github.com/ozinclouds/<REPO>`
 push entire local repo to remote:
-``
+`git push origin --mirror`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTQ5MTk4NSw3Nzk3MjIxNDEsNzEwNj
+eyJoaXN0b3J5IjpbMTQwMzQ3ODkwMyw3Nzk3MjIxNDEsNzEwNj
 k0MzhdfQ==
 -->
