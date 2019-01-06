@@ -3,18 +3,17 @@
 
 a curated list of awesomenesses and cheatsheets.
 
-* [Tooling](#tooling)
-	* [Git](#git)
+* [Laravel](#laravel)
 * [Testing](#testing)
 	* [phpunit](#phpunit)
 	* [behat](#behat)
+* [Tooling](#tooling)
+	* [Git](#git)
 
 
-# Tooling
-Awesome tools
+# Laravel
 
-## Git
-* :hash: [Git Cheat](docs/tooling/gitCheat.md)
+
 
 # Testing
 Testing goodies  
@@ -25,10 +24,19 @@ Testing goodies
 * :link: [Laravel Extention](https://github.com/laracasts/Behat-Laravel-Extension) 
 
 
+# Tooling
+Awesome tools
+
+## Git
+* :hash: [Git Cheat](docs/tooling/gitCheat.md)
+
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDY4NjY3LC04OTc4ODc4MDYsLTcxMz
-I1ODQ1OF19
+eyJoaXN0b3J5IjpbLTE3ODM3MDYyODksMTk0MDY4NjY3LC04OT
+c4ODc4MDYsLTcxMzI1ODQ1OF19
 -->
