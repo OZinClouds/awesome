@@ -1,7 +1,7 @@
 # Git Cheat
 * [git_restart](#git_restart)
 * [reset remote](#reset-remote)
-* [Jeffrey Way goodies][#jeffrey-way-goodies]
+* [Jeffrey Way goodies](#jeffrey-way-goodies)
 
 ## git_restart
 git start from scratch  
@@ -42,6 +42,6 @@ jeffrey Way aliases for git
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTkwODYwNTUsODIzNzAzNTksNzc5Nz
+eyJoaXN0b3J5IjpbLTIwMTAzMDEyNTYsODIzNzAzNTksNzc5Nz
 IyMTQxLDcxMDY5NDM4XX0=
 -->
