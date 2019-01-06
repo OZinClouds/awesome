@@ -3,7 +3,7 @@
 * [reset remote](#reset-remote)
 
 ## git_restart
-git start from scratch
+git start from scratch  
 remove all files and init again with an initial commit
 
 	`git_restart(){
@@ -17,17 +17,17 @@ remove all files and init again with an initial commit
 	echo "restarted git..."}`
 
 ## reset remote
-Delete everything and reset remote, then push mirror origin
+Delete everything and reset remote, then push mirror origin  
 *assumes git restarted*
 
-add remote:
+add remote:  
 `git remote add origin https://github.com/ozinclouds/<REPO>`
 
-push entire local repo to remote:
+push entire local repo to remote:  
 `git push origin --mirror`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjExOTI0NTcsNzc5NzIyMTQxLDcxMD
-Y5NDM4XX0=
+eyJoaXN0b3J5IjpbODIzNzAzNTksNzc5NzIyMTQxLDcxMDY5ND
+M4XX0=
 -->
