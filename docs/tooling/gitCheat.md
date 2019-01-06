@@ -46,11 +46,14 @@ jeffrey Way aliases for git
 list tags  
 `git tag -l`  
 add a tag  
-`git tag v1.0.0`
-delete a tag
-`git -d tag v1.0.0 `
+`git tag v1.0.0`  
+delete a tag  
+`git tag --delete v1.0.0 `  
+push a tag  
+`git push origin v1.0.0`
+push all
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDc3NzA4LDI5OTYxNDgwNywtMjAxMD
-MwMTI1Niw4MjM3MDM1OSw3Nzk3MjIxNDEsNzEwNjk0MzhdfQ==
+eyJoaXN0b3J5IjpbLTQwMjUzNjIxNywyOTk2MTQ4MDcsLTIwMT
+AzMDEyNTYsODIzNzAzNTksNzc5NzIyMTQxLDcxMDY5NDM4XX0=
 
 -->
