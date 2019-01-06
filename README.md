@@ -28,7 +28,7 @@ Testing goodies
 Awesome tools
 
 ## Git
-* :hash: [Git Cheat](docs/tooling/gitCheat.md)
+* :bookmark: [Git Cheat](docs/tooling/gitCheat.md)
 * :link: [git markdown emoji](https://gist.github.com/rxaviers/7360908)
 
 
@@ -37,6 +37,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls1NzE2MDE0OTUsLTE3ODM3MDYy
-ODksMTk0MDY4NjY3LC04OTc4ODc4MDYsLTcxMzI1ODQ1OF19
+BnZm1cbiIsImhpc3RvcnkiOlsxMjM0NzQ1NTE5LDU3MTYwMTQ5
+NSwtMTc4MzcwNjI4OSwxOTQwNjg2NjcsLTg5Nzg4NzgwNiwtNz
+EzMjU4NDU4XX0=
 -->
