@@ -43,7 +43,14 @@ jeffrey Way aliases for git
 
 ## tags
 
+list tags  
+`git tag -l`  
+add a tag  
+`git tag v1.0.0`
+delete a tag
+`git -d tag v1.0.0 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NjE0ODA3LC0yMDEwMzAxMjU2LDgyMz
-cwMzU5LDc3OTcyMjE0MSw3MTA2OTQzOF19
+eyJoaXN0b3J5IjpbMjEyNDc3NzA4LDI5OTYxNDgwNywtMjAxMD
+MwMTI1Niw4MjM3MDM1OSw3Nzk3MjIxNDEsNzEwNjk0MzhdfQ==
+
 -->
