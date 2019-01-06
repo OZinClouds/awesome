@@ -34,11 +34,13 @@ jeffrey Way aliases for git
  **wip**: work in progress commit  
 `alias wip="git add . && git commit -m 'wip'"` 
 
-**gitlog**: nicely formated git log
-`alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+**gitlog**: nicely formated git log  
+	```
+	alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTgyMTY4OCw4MjM3MDM1OSw3Nzk3Mj
+eyJoaXN0b3J5IjpbMTg3NTkxNDg2OCw4MjM3MDM1OSw3Nzk3Mj
 IxNDEsNzEwNjk0MzhdfQ==
 -->
