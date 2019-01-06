@@ -9,7 +9,7 @@ a curated list of awesomenesses and cheatsheets.
 Awesome tools
 
 ## Git
-* [Git Cheat](./docs/tooling/gitCheat)
+* [Git Cheat](docs/tooling/gitCheat)
 
 
 
@@ -18,5 +18,5 @@ Awesome tools
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTQ5MDY5M119
+eyJoaXN0b3J5IjpbLTcxMzI1ODQ1OF19
 -->
