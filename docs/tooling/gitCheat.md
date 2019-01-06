@@ -2,6 +2,7 @@
 * [git_restart](#git_restart)
 * [reset remote](#reset-remote)
 * [Jeffrey Way goodies](#jeffrey-way-goodies)
+* [tags](#tags)
 
 ## git_restart
 git start from scratch  
@@ -40,8 +41,9 @@ jeffrey Way aliases for git
 	alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 	```
 
+## tags
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTAzMDEyNTYsODIzNzAzNTksNzc5Nz
-IyMTQxLDcxMDY5NDM4XX0=
+eyJoaXN0b3J5IjpbMjk5NjE0ODA3LC0yMDEwMzAxMjU2LDgyMz
+cwMzU5LDc3OTcyMjE0MSw3MTA2OTQzOF19
 -->
