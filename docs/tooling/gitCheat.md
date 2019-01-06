@@ -27,12 +27,16 @@ push entire local repo to remote:
 `git push origin --mirror`
 
 ## Jeffrey Way goodies
-###jeffreyWay alias for git 
- nah : undo everything since last commit, incl new files
-alias nah="git reset --hard && git clean -df"
-alias wip="git add . && git commit -m 'wip'"
+jeffrey Way aliases for git  
+**nah** : undo everything since last commit, incl new files  
+`alias nah="git reset --hard && git clean -df"`
+  
+ **wip**: work in progress commit  
+`alias wip="git add . && git commit -m 'wip'"` 
+
+**gitlog**: 
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM2NTI1MDMsODIzNzAzNTksNzc5Nz
+eyJoaXN0b3J5IjpbLTE0ODc0NjUxMDIsODIzNzAzNTksNzc5Nz
 IyMTQxLDcxMDY5NDM4XX0=
 -->
