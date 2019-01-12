@@ -1,8 +1,12 @@
 # PHPUNIT Cheat
 
 
-in Handler.php (Exceptions), invoke to throw exceptions when in testin
+in Handler.php (Exceptions) - function report => invoke to throw exceptions when in testing environment:
+```
 
+if (app()->environment() === 'testing') throw $exception;
+        
+```
 
 
 
@@ -10,5 +14,5 @@ in Handler.php (Exceptions), invoke to throw exceptions when in testin
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTg4OTU3N119
+eyJoaXN0b3J5IjpbMTI5MzY5ODYzNV19
 -->
