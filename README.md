@@ -19,7 +19,7 @@ a curated list of awesomenesses and cheatsheets.
 Testing goodies  
 
 ## phpunit
-:bookmark: [Laravel PHPUNIT](docs/laravel/PHPUNITcheat.md)
+:bookmark: [Laravel PHPUNIT Cheat](docs/laravel/PHPUNITcheat.md)
 ## behat
 * :link: [Laravel Extention](https://github.com/laracasts/Behat-Laravel-Extension) 
 
@@ -37,7 +37,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTE0MjYwNDg1LDEyMzQ3NDU1
-MTksNTcxNjAxNDk1LC0xNzgzNzA2Mjg5LDE5NDA2ODY2NywtOD
-k3ODg3ODA2LC03MTMyNTg0NThdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTU2MjA0Mjc5MiwxMjM0NzQ1
+NTE5LDU3MTYwMTQ5NSwtMTc4MzcwNjI4OSwxOTQwNjg2NjcsLT
+g5Nzg4NzgwNiwtNzEzMjU4NDU4XX0=
 -->
