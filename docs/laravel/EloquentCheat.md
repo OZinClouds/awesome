@@ -22,7 +22,7 @@ public  function  apply($builder)
 {
 $this->builder = $builder;
 foreach ($this->getFilters() as $filter => $value) {
-// there is a method in ThreadsController, then 
+// if there is a method in ThreadsController, then call that filter method
 if (method_exists($this,  $filter)) {
 $this->$filter($value);
 }
@@ -40,9 +40,9 @@ return  array_filter($this->request->only($this->filters));
 ### ThreadsFilter class extending Filters
 
 ```php
-protected $filters = ['by'];
+protected $filters = ['by']; // array of allowed filters (queries by get method)
 protected  function  by($username)
-{
+{ // this is the method called
 $user =  User::where('name', $username)->firstOrFail();
 return  $this->builder->where('user_id', $user->id);
 }
@@ -68,5 +68,5 @@ return $threads->get();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMjE4NjA1LDE0NTgzNTIxMTddfQ==
+eyJoaXN0b3J5IjpbMTI5MTcwMTU3LDE0NTgzNTIxMTddfQ==
 -->
