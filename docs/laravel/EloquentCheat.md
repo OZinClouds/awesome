@@ -22,6 +22,7 @@ public  function  apply($builder)
 {
 $this->builder = $builder;
 foreach ($this->getFilters() as $filter => $value) {
+// there is a method in ThreadsController, then 
 if (method_exists($this,  $filter)) {
 $this->$filter($value);
 }
@@ -32,6 +33,7 @@ return  $this->builder;
 // Fetch all relevant filters from the request.
 public  function  getFilters()
 {
+// get only the desired querystring
 return  array_filter($this->request->only($this->filters));
 }
 ```  
@@ -66,5 +68,5 @@ return $threads->get();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk1MDk2NTAsMTQ1ODM1MjExN119
+eyJoaXN0b3J5IjpbNjYyMjE4NjA1LDE0NTgzNTIxMTddfQ==
 -->
