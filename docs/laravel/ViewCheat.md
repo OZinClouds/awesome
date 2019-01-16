@@ -11,15 +11,12 @@ Lifecycle is important. Prevents calling same queries in each page...
 ```php
 public  function  boot()
 {
-
 \View::composer('*', function ($view) {
-
 $view->with('channels', Channel::all());
-
 });
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MzA5MjYzXX0=
+eyJoaXN0b3J5IjpbLTEzMjM1MTE4NDddfQ==
 -->
