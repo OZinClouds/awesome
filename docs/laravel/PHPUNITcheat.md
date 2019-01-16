@@ -1,5 +1,5 @@
 # PHPUNIT Cheat
-* [Handling Exceptions](Handling-Exceptions)
+* [Handling Exceptions](handling-exceptions)
 
 ## Handling Exceptions
 in Handler.php (Exceptions) - function report => invoke to throw exceptions when in testing environment:
@@ -11,6 +11,6 @@ if (app()->environment() === 'testing') throw $exception;
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjk4Njg5OCwxNjY0MzcwNjc3LC0xMT
-Q2MjUwMzIwXX0=
+eyJoaXN0b3J5IjpbODkxNjI1NzQ2LDE2NjQzNzA2NzcsLTExND
+YyNTAzMjBdfQ==
 -->
