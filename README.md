@@ -10,6 +10,7 @@ a curated list of awesomenesses and cheatsheets.
 * [Tooling](#tooling)
 	* [Git](#git)
 
+[ToC]
 
 # Laravel
 
@@ -37,7 +38,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTU2MjA0Mjc5MiwxMjM0NzQ1
-NTE5LDU3MTYwMTQ5NSwtMTc4MzcwNjI4OSwxOTQwNjg2NjcsLT
-g5Nzg4NzgwNiwtNzEzMjU4NDU4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMzkxNTc2OTM4LC0xNTYyMDQy
+NzkyLDEyMzQ3NDU1MTksNTcxNjAxNDk1LC0xNzgzNzA2Mjg5LD
+E5NDA2ODY2NywtODk3ODg3ODA2LC03MTMyNTg0NThdfQ==
 -->
