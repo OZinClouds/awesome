@@ -3,7 +3,11 @@
 * [composer] (#composer)
 
 ## Composer
-View composers are callbacks or class methods that are called when a view is rendered.
+View composers are callbacks or class methods that are called when a view is rendered.  
+Lifecycle is important. Prevents calling same queries in each page...
+e.g. 
+* in AppServiceProvider, boot method,
+* 
 ```php
 public  function  boot()
 {
@@ -17,5 +21,5 @@ $view->with('channels', Channel::all());
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjYyNDY3NV19
+eyJoaXN0b3J5IjpbLTIyMzEwODA3Ml19
 -->
