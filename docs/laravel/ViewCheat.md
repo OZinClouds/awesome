@@ -1,6 +1,6 @@
 # View Cheat
 
-* [composer] (#composer)
+* [composer](#composer)
 
 ## Composer
 View composers are callbacks or class methods that are called when a view is rendered.  
@@ -18,5 +18,5 @@ $view->with('channels', Channel::all());
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM1MTE4NDddfQ==
+eyJoaXN0b3J5IjpbLTE0MTMwMjYwNTddfQ==
 -->
