@@ -5,9 +5,9 @@
 ## Composer
 View composers are callbacks or class methods that are called when a view is rendered.  
 Lifecycle is important. Prevents calling same queries in each page...
-e.g. 
+**example:** 
 * in AppServiceProvider, boot method,
-* 
+* in all pages (*) send the page the whole Channel collection (::all()...)
 ```php
 public  function  boot()
 {
@@ -21,5 +21,5 @@ $view->with('channels', Channel::all());
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzEwODA3Ml19
+eyJoaXN0b3J5IjpbNTU5MzA5MjYzXX0=
 -->
