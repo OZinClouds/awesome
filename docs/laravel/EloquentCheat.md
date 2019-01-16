@@ -69,6 +69,11 @@ $threads->where('channel_id', $channel->id);
 return $threads->get();
 }
 ```
+## Global Scope
+* Given that threads have replies, when showing a thread, then replies_count injected in view
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTQxMzA3MywxNDU4MzUyMTE3XX0=
+eyJoaXN0b3J5IjpbNjQzNjI2ODU4LC0zODU0MTMwNzMsMTQ1OD
+M1MjExN119
 -->
