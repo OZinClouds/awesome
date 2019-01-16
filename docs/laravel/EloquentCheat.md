@@ -9,6 +9,9 @@
   
 ### abstract Filters class
 ```php
+protected $request;
+protected $builder;
+protected $filters = [];
 public  function  __construct(Request $request)
 {
 $this->request = $request;
@@ -20,20 +23,17 @@ public  function  apply($builder)
 $this->builder = $builder;
 foreach ($this->getFilters() as $filter => $value) {
 if (method_exists($this,  $filter)) {
-
 $this->$filter($value);
-
 }
-
 }
-
-  
-
 return  $this->builder;
-
 }
+
+
+
+
 ```  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYxNTI3LDE0NTgzNTIxMTddfQ==
+eyJoaXN0b3J5IjpbMTE0MzM4NDEyMiwxNDU4MzUyMTE3XX0=
 -->
