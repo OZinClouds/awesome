@@ -71,9 +71,18 @@ return $threads->get();
 ```
 ## Global Scope
 * Given that threads have replies, when showing a thread, then replies_count injected in view
+* in Thread Model, Laravel understands boot and 
 
-
+```php
+protected  static  function  boot()
+{
+parent::boot();
+static::addGlobalScope('replyCount', function ($builder) {
+$builder->withCount('replies');
+});
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNjI2ODU4LC0zODU0MTMwNzMsMTQ1OD
-M1MjExN119
+eyJoaXN0b3J5IjpbMTIxMzE1MjY1NCwtMzg1NDEzMDczLDE0NT
+gzNTIxMTddfQ==
 -->
