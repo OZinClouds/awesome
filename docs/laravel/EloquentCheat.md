@@ -47,7 +47,24 @@ return  $this->builder->where('user_id', $user->id);
 ```
 ### Thread model
 
-
+```php
+public function scopeFilter($query, ThreadFilters $filters)
+{
+return $filters->apply($query);
+}
+```
+### ThreadsController
+```php
+protected  function  getThreads(Channel $channel, ThreadFilters $filters)
+{
+$threads =  Thread::latest()->filter($filters);
+  
+if ($channel->exists) {
+$threads->where('channel_id', $channel->id);
+}
+return $threads->get();
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg4OTQwNzksMTQ1ODM1MjExN119
+eyJoaXN0b3J5IjpbLTE1ODk1MDk2NTAsMTQ1ODM1MjExN119
 -->
