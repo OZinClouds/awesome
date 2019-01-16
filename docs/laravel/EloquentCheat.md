@@ -1,5 +1,5 @@
 # Eloquent Cheat
-* [Scope Filters for get requests](#Scope Filters for get requests)
+* [Scope Filters for get requests](#Scope-Filters-for-get-requests)
 
 
 ## Scope Filters for get requests
@@ -70,5 +70,5 @@ return $threads->get();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDAzMzYyMywxNDU4MzUyMTE3XX0=
+eyJoaXN0b3J5IjpbODAwMTk1NTczLDE0NTgzNTIxMTddfQ==
 -->
