@@ -12,6 +12,8 @@ a curated list of awesomenesses and cheatsheets.
 
 # Laravel
 
+## Eloquent
+ * :bookmark: [Eloquent Cheat)
 
 ## Testing
 Testing goodies for Laravel
@@ -35,7 +37,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls2ODIzMjQ0MTMsLTE1NjIwNDI3
-OTIsMTIzNDc0NTUxOSw1NzE2MDE0OTUsLTE3ODM3MDYyODksMT
-k0MDY4NjY3LC04OTc4ODc4MDYsLTcxMzI1ODQ1OF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTE4MDk5MjY5NiwtMTU2MjA0
+Mjc5MiwxMjM0NzQ1NTE5LDU3MTYwMTQ5NSwtMTc4MzcwNjI4OS
+wxOTQwNjg2NjcsLTg5Nzg4NzgwNiwtNzEzMjU4NDU4XX0=
 -->
