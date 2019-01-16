@@ -1,5 +1,6 @@
 # Eloquent Cheat
 * [Scope Filters for get requests](#Scope-Filters-for-get-requests)
+* [Global Scope](#global-scope)
 
 
 ## Scope Filters for get requests
@@ -71,7 +72,9 @@ return $threads->get();
 ```
 ## Global Scope
 * Given that threads have replies, when showing a thread, then replies_count injected in view
-* in Thread Model, Laravel understands boot and 
+* in Thread Model, Laravel understands boot 
+* addGlobalScope
+* use it in view: `{{ $thread->replies_count }}`
 
 ```php
 protected  static  function  boot()
@@ -83,6 +86,6 @@ $builder->withCount('replies');
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzE1MjY1NCwtMzg1NDEzMDczLDE0NT
+eyJoaXN0b3J5IjpbLTg1NDMyNTQ0MywtMzg1NDEzMDczLDE0NT
 gzNTIxMTddfQ==
 -->
