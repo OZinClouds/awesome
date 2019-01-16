@@ -38,8 +38,16 @@ return  array_filter($this->request->only($this->filters));
 ### ThreadsFilter class extending Filters
 
 ```php
-
+protected $filters = ['by'];
+protected  function  by($username)
+{
+$user =  User::where('name', $username)->firstOrFail();
+return  $this->builder->where('user_id', $user->id);
+}
 ```
+### Thread model
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NjM3OTIzLDE0NTgzNTIxMTddfQ==
+eyJoaXN0b3J5IjpbLTEwNjg4OTQwNzksMTQ1ODM1MjExN119
 -->
