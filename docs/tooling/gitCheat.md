@@ -37,9 +37,9 @@ jeffrey Way aliases for git
 `alias wip="git add . && git commit -m 'wip'"` 
 
 **gitlog**: nicely formated git log  
-	```
+``
 	alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-	```
+``
 
 ## tags
 
@@ -57,7 +57,7 @@ push all tags
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0ODE1NTI3LDI5OTYxNDgwNywtMjAxMD
-MwMTI1Niw4MjM3MDM1OSw3Nzk3MjIxNDEsNzEwNjk0MzhdfQ==
-
+eyJoaXN0b3J5IjpbMTM5MTA0MDMwOSwyOTQ4MTU1MjcsMjk5Nj
+E0ODA3LC0yMDEwMzAxMjU2LDgyMzcwMzU5LDc3OTcyMjE0MSw3
+MTA2OTQzOF19
 -->
