@@ -1,5 +1,5 @@
 # Eloquent Cheat
-
+* [Scope Filters for get requests](
 
 
 ## Scope Filters for get requests
@@ -50,6 +50,7 @@ return  $this->builder->where('user_id', $user->id);
 ### Thread model
 
 ```php
+// scope query in Model (..->filter()->...)
 public function scopeFilter($query, ThreadFilters $filters)
 {
 return $filters->apply($query);
@@ -59,6 +60,7 @@ return $filters->apply($query);
 ```php
 protected  function  getThreads(Channel $channel, ThreadFilters $filters)
 {
+// call the scope amongst latest threads
 $threads =  Thread::latest()->filter($filters);
   
 if ($channel->exists) {
@@ -68,5 +70,5 @@ return $threads->get();
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTcwMTU3LDE0NTgzNTIxMTddfQ==
+eyJoaXN0b3J5IjpbMzM4NTg1MzY5LDE0NTgzNTIxMTddfQ==
 -->
