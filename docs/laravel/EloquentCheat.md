@@ -74,6 +74,7 @@ return $threads->get();
 * Given that threads have replies, when showing a thread, then replies_count injected in view
 * in Thread Model, Laravel understands boot 
 * addGlobalScope
+* Elo
 * use it in view: `{{ $thread->replies_count }}`
 
 ```php
@@ -86,6 +87,6 @@ $builder->withCount('replies');
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDMyNTQ0MywtMzg1NDEzMDczLDE0NT
-gzNTIxMTddfQ==
+eyJoaXN0b3J5IjpbMTc0NTM2NjU5OSwtODU0MzI1NDQzLC0zOD
+U0MTMwNzMsMTQ1ODM1MjExN119
 -->
