@@ -8,8 +8,32 @@
 * Given there is a set of threads in a forum, when filtered by (current) user, then list user's threads
   
 ### abstract Filters class
-```php  
+```php
+public  function  __construct(Request $request)
+{
+$this->request = $request;
+}
+
+// apply filters
+public  function  apply($builder)
+{
+$this->builder = $builder;
+foreach ($this->getFilters() as $filter => $value) {
+if (method_exists($this,  $filter)) {
+
+$this->$filter($value);
+
+}
+
+}
+
+  
+
+return  $this->builder;
+
+}
+```  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgzNjgxMjAsMTQ1ODM1MjExN119
+eyJoaXN0b3J5IjpbLTEyNzYxNTI3LDE0NTgzNTIxMTddfQ==
 -->
