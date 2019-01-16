@@ -29,11 +29,17 @@ $this->$filter($value);
 return  $this->builder;
 }
 
-
-
-
+// Fetch all relevant filters from the request.
+public  function  getFilters()
+{
+return  array_filter($this->request->only($this->filters));
+}
 ```  
+### ThreadsFilter class extending Filters
 
+```php
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzM4NDEyMiwxNDU4MzUyMTE3XX0=
+eyJoaXN0b3J5IjpbOTI1NjM3OTIzLDE0NTgzNTIxMTddfQ==
 -->
