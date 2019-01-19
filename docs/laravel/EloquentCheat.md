@@ -89,8 +89,10 @@ $builder->withCount('replies');
 ```
 
 ## Clear Order
-Given that 
+Given that a collection is being ordered by some fields. To reset that order assign 'orders' to an empty array.
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUzNTA5NzQsMjExMjU2ODk1NiwtOD
-U0MzI1NDQzLC0zODU0MTMwNzMsMTQ1ODM1MjExN119
+eyJoaXN0b3J5IjpbLTYxNzAwMzI4NiwyMTEyNTY4OTU2LC04NT
+QzMjU0NDMsLTM4NTQxMzA3MywxNDU4MzUyMTE3XX0=
 -->
