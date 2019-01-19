@@ -1,6 +1,7 @@
 # Eloquent Cheat
 * [Scope Filters for get requests](#Scope-Filters-for-get-requests)
 * [Global Scope](#global-scope)
+* [Clear Order](#clear-order)
 
 
 ## Scope Filters for get requests
@@ -86,7 +87,10 @@ $builder->withCount('replies');
 });
 }
 ```
+
+## Clear Order
+Given that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjU2ODk1NiwtODU0MzI1NDQzLC0zOD
-U0MTMwNzMsMTQ1ODM1MjExN119
+eyJoaXN0b3J5IjpbLTExNzUzNTA5NzQsMjExMjU2ODk1NiwtOD
+U0MzI1NDQzLC0zODU0MTMwNzMsMTQ1ODM1MjExN119
 -->
