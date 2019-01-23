@@ -16,8 +16,13 @@ Telescope interferes with testing and better be disabled in PHPUNIT.xml
 ```xml
 <env name="TELESCOPE_ENABLED" value="false"/>`
 ```
-## DB in 
+## DB in Memory
+Add sqlite and :memory: in PHPUNIT.xml  
+In test classes use DatabaseMigrations
+  `enter code here`  use DatabaseMigrations
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5NTkxMCwxNjY0MzcwNjc3LC0xMT
-Q2MjUwMzIwXX0=
+eyJoaXN0b3J5IjpbLTEyNzQ4NjQ1MTAsMTY2NDM3MDY3NywtMT
+E0NjI1MDMyMF19
 -->
