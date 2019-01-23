@@ -1,6 +1,7 @@
 # PHPUNIT Cheat
 * [Handling Exceptions](#handling-exceptions)
 * [Disable Telescope](#disable-telescope)
+* [DB in memory](#db-in-memory)
 
 ## Handling Exceptions
 in Handler.php (Exceptions) - function report => invoke to throw exceptions when in testing environment:
@@ -15,7 +16,8 @@ Telescope interferes with testing and better be disabled in PHPUNIT.xml
 ```xml
 <env name="TELESCOPE_ENABLED" value="false"/>`
 ```
+## DB in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMTM3MTgzLDE2NjQzNzA2NzcsLTExND
-YyNTAzMjBdfQ==
+eyJoaXN0b3J5IjpbLTE1MzA5NTkxMCwxNjY0MzcwNjc3LC0xMT
+Q2MjUwMzIwXX0=
 -->
