@@ -30,7 +30,7 @@ Testing goodies for Laravel
 * :link: [Laravel Extention](https://github.com/laracasts/Behat-Laravel-Extension) 
   
 ## Sugars
-* :bookmark: [Laravel Sugars](docs/laravel/sugars.md)
+* :bookmark: [Laravel Sugars](docs/laravel/Sugars.md)
 
 # Tooling
 Awesome tools
@@ -45,7 +45,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNDk5NTEzMTA0LC0xNTYyMDQy
+BnZm1cbiIsImhpc3RvcnkiOlstNjg2MjIyMDY0LC0xNTYyMDQy
 NzkyLDEyMzQ3NDU1MTksNTcxNjAxNDk1LC0xNzgzNzA2Mjg5LD
 E5NDA2ODY2NywtODk3ODg3ODA2LC03MTMyNTg0NThdfQ==
 -->
