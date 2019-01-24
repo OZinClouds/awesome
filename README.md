@@ -13,6 +13,7 @@ a curated list of awesomenesses and cheatsheets.
 
 
 # Laravel
+goodies and sugars  
 
 ## Eloquent
  * :bookmark: [Eloquent Cheat](docs/laravel/EloquentCheat.md)
@@ -45,7 +46,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMjYyMjM1Njg0LC02ODYyMjIw
+BnZm1cbiIsImhpc3RvcnkiOlsxNjcxNzE3Mzc4LC02ODYyMjIw
 NjQsLTE1NjIwNDI3OTIsMTIzNDc0NTUxOSw1NzE2MDE0OTUsLT
 E3ODM3MDYyODksMTk0MDY4NjY3LC04OTc4ODc4MDYsLTcxMzI1
 ODQ1OF19
