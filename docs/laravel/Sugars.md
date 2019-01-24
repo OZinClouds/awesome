@@ -1,5 +1,5 @@
 # Laravel Sugars
-* [Factory for DB Notifications](#Factory-for-DB-Notifications)
+* [Factory for DB Notifications](#factory-for-db-notifications)
 
 ## Factory for DB Notifications
 ```php
@@ -16,5 +16,5 @@ $factory->define(\Illuminate\Notifications\DatabaseNotification::class, function
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTY0MzYxOV19
+eyJoaXN0b3J5IjpbMTM4ODIwNTg1M119
 -->
