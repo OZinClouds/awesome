@@ -7,6 +7,7 @@ a curated list of awesomenesses and cheatsheets.
 	* [Testing](#testing)
 	* [Eloquent](#eloquent)
 	* [View](#view)
+	* [Sugars](#sugars)
 * [Tooling](#tooling)
 	* [Git](#git)
 
@@ -27,7 +28,9 @@ Testing goodies for Laravel
 :bookmark: [Laravel PHPUNIT Cheat](docs/laravel/PHPUNITcheat.md)
 ### behat
 * :link: [Laravel Extention](https://github.com/laracasts/Behat-Laravel-Extension) 
-
+  
+## Sugars
+* :bookmark: [Laravel Sugars](docs/laravel/)
 
 # Tooling
 Awesome tools
@@ -42,7 +45,7 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5MzMwODM2MjgsLTE1NjIwNDI3
-OTIsMTIzNDc0NTUxOSw1NzE2MDE0OTUsLTE3ODM3MDYyODksMT
-k0MDY4NjY3LC04OTc4ODc4MDYsLTcxMzI1ODQ1OF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTUwNTEwNTk1NiwtMTU2MjA0
+Mjc5MiwxMjM0NzQ1NTE5LDU3MTYwMTQ5NSwtMTc4MzcwNjI4OS
+wxOTQwNjg2NjcsLTg5Nzg4NzgwNiwtNzEzMjU4NDU4XX0=
 -->
