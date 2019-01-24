@@ -6,7 +6,6 @@ a curated list of awesomenesses and cheatsheets.
 * [Laravel](#laravel)
 	* [Testing](#testing)
 	* [Eloquent](#eloquent)
-	* [View](#view)
 	* [Sugars](#sugars)
 * [Tooling](#tooling)
 	* [Git](#git)
@@ -18,8 +17,6 @@ a curated list of awesomenesses and cheatsheets.
 ## Eloquent
  * :bookmark: [Eloquent Cheat](docs/laravel/EloquentCheat.md)
 
-## View
-* :bookmark: [View](docs/laravel/ViewCheat.md)
 
 ## Testing
 Testing goodies for Laravel
@@ -45,7 +42,8 @@ Awesome tools
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjg2MjIyMDY0LC0xNTYyMDQy
-NzkyLDEyMzQ3NDU1MTksNTcxNjAxNDk1LC0xNzgzNzA2Mjg5LD
-E5NDA2ODY2NywtODk3ODg3ODA2LC03MTMyNTg0NThdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls4MTk5ODU0MzQsLTY4NjIyMjA2
+NCwtMTU2MjA0Mjc5MiwxMjM0NzQ1NTE5LDU3MTYwMTQ5NSwtMT
+c4MzcwNjI4OSwxOTQwNjg2NjcsLTg5Nzg4NzgwNiwtNzEzMjU4
+NDU4XX0=
 -->
