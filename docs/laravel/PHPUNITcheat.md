@@ -24,8 +24,16 @@ In test classes use DatabaseMigrations
 <env name="DB_CONNECTION" value="sqlite"/>
 <env name="DB_DATABASE" value=":memory:"/>
 ```
+## tap for grouping
+good practice to group assertions in a tap.
 
+```php
+tap($user->fresh(), function ($user) {
+$this->assertTrue($user->confirmed);
+$this->assertNull($user->confirmation_token);
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY1OTM5NjQsMTY2NDM3MDY3NywtMT
-E0NjI1MDMyMF19
+eyJoaXN0b3J5IjpbLTEwMDM5NTAyMDAsLTE1MTY1OTM5NjQsMT
+Y2NDM3MDY3NywtMTE0NjI1MDMyMF19
 -->
