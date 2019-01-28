@@ -29,11 +29,11 @@ good practice to group assertions in a tap.
 
 ```php
 tap($user->fresh(), function ($user) {
-$this->assertTrue($user->confirmed);
-$this->assertNull($user->confirmation_token);
+$this->assertTrue($user->something);
+$this->assertNull($user->anotherthing);
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM5NTAyMDAsLTE1MTY1OTM5NjQsMT
+eyJoaXN0b3J5IjpbLTE5ODc1Njg2MzMsLTE1MTY1OTM5NjQsMT
 Y2NDM3MDY3NywtMTE0NjI1MDMyMF19
 -->
