@@ -2,6 +2,7 @@
 * [Handling Exceptions](#handling-exceptions)
 * [Disable Telescope](#disable-telescope)
 * [DB in memory](#db-in-memory)
+* [tap for grouping](#tap-for-grouping)
 
 ## Handling Exceptions
 in Handler.php (Exceptions) - function report => invoke to throw exceptions when in testing environment:
@@ -34,6 +35,6 @@ $this->assertNull($user->anotherthing);
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc1Njg2MzMsLTE1MTY1OTM5NjQsMT
-Y2NDM3MDY3NywtMTE0NjI1MDMyMF19
+eyJoaXN0b3J5IjpbLTU3MDc3NDU3MSwtMTUxNjU5Mzk2NCwxNj
+Y0MzcwNjc3LC0xMTQ2MjUwMzIwXX0=
 -->
