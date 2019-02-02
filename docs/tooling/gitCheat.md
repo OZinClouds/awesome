@@ -40,6 +40,7 @@ jeffrey Way aliases for git
 ``
 	alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ``
+--grep=12
 
 ## tags
 
@@ -57,7 +58,7 @@ push all tags
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTA0MDMwOSwyOTQ4MTU1MjcsMjk5Nj
-E0ODA3LC0yMDEwMzAxMjU2LDgyMzcwMzU5LDc3OTcyMjE0MSw3
-MTA2OTQzOF19
+eyJoaXN0b3J5IjpbLTEyODI2MTM5NywxMzkxMDQwMzA5LDI5ND
+gxNTUyNywyOTk2MTQ4MDcsLTIwMTAzMDEyNTYsODIzNzAzNTks
+Nzc5NzIyMTQxLDcxMDY5NDM4XX0=
 -->
