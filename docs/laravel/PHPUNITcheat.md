@@ -1,17 +1,9 @@
 # PHPUNIT Cheat
-* [Handling Exceptions](#handling-exceptions)
 * [Disable Telescope](#disable-telescope)
 * [DB in memory](#db-in-memory)
 * [tap for grouping](#tap-for-grouping)
 
-## Handling Exceptions
-in Handler.php (Exceptions) - function report => invoke to throw exceptions when in testing environment:
-```php
-if (app()->environment() === 'testing') throw $exception;
-```
-*better way* is to use in *TestCase* the gist from :link:[@adamwathan](https://gist.github.com/adamwathan/125847c7e3f16b88fa33a9f8b42333da) => **Disabling Exception Handling in Laravel Feature Tests**
 
----
 ## Disable Telescope
 Telescope interferes with testing and better be disabled in PHPUNIT.xml
 ```xml
@@ -35,6 +27,6 @@ $this->assertNull($user->anotherthing);
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDc3NDU3MSwtMTUxNjU5Mzk2NCwxNj
-Y0MzcwNjc3LC0xMTQ2MjUwMzIwXX0=
+eyJoaXN0b3J5IjpbMTU1OTU0NTkyOCwtNTcwNzc0NTcxLC0xNT
+E2NTkzOTY0LDE2NjQzNzA2NzcsLTExNDYyNTAzMjBdfQ==
 -->
