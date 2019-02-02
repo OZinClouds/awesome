@@ -33,10 +33,13 @@ $view->with('channels', Channel::all());
 }
 ```  
 ## disable Register
-assign false in route: ````
+assign false in route: 
+```php
 Auth::routes(['register' => false]);
-````
+```
+or in *App\Http\Controllers\Auth* RegisterController's constructor:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NDU0NDI2LC0xNzc5ODE5NTkzLDEzOD
-gyMDU4NTNdfQ==
+eyJoaXN0b3J5IjpbMTc5ODI1OTkzOSwtMTc3OTgxOTU5MywxMz
+g4MjA1ODUzXX0=
 -->
