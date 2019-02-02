@@ -37,9 +37,19 @@ assign false in route:
 ```php
 Auth::routes(['register' => false]);
 ```
+'register' => false, // Registration Routes...
+    'reset' => false, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+```
+```
 or in *App\Http\Controllers\Auth* RegisterController's constructor:
-
+```php
+ public function __construct()
+    {
+        $this->middleware('auth');
+    }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODI1OTkzOSwtMTc3OTgxOTU5MywxMz
-g4MjA1ODUzXX0=
+eyJoaXN0b3J5IjpbLTEzNzIzMjcwNDIsLTE3Nzk4MTk1OTMsMT
+M4ODIwNTg1M119
 -->
