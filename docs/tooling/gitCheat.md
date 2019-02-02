@@ -39,8 +39,9 @@ jeffrey Way aliases for git
 **gitlog**: nicely formated git log  
 ``
 	alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-``
---grep=12
+``  
+
+for instance, adding `gitlog --grep=tasks` results with a list of commits having tasks...
 
 ## tags
 
@@ -58,7 +59,7 @@ push all tags
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI2MTM5NywxMzkxMDQwMzA5LDI5ND
+eyJoaXN0b3J5IjpbLTU4Nzc5NDM4NCwxMzkxMDQwMzA5LDI5ND
 gxNTUyNywyOTk2MTQ4MDcsLTIwMTAzMDEyNTYsODIzNzAzNTks
 Nzc5NzIyMTQxLDcxMDY5NDM4XX0=
 -->
