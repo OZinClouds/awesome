@@ -1,6 +1,7 @@
 # Laravel Sugars
 * [Factory for DB Notifications](#factory-for-db-notifications)
 *  [View Composer](#view-composer)
+* [disable Register](#disable-register)
 
 ## Factory for DB Notifications
 ```php
@@ -30,7 +31,12 @@ public  function  boot()
 $view->with('channels', Channel::all());
 });
 }
-```
+```  
+## disable Register
+assign false in route: ````
+Auth::routes(['register' => false]);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk4MTk1OTMsMTM4ODIwNTg1M119
+eyJoaXN0b3J5IjpbNDg5NDU0NDI2LC0xNzc5ODE5NTkzLDEzOD
+gyMDU4NTNdfQ==
 -->
